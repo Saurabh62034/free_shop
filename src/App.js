@@ -16,7 +16,7 @@ const App = ()=> {
       <React.Fragment>
         <Navbar></Navbar>
         <Routes>
-          <Route path="/" element={<ProductList />} />
+          <Route path="/free_shop" element={<ProductList />} />
           <Route path="/Details" element={<Details/>} />
           <Route path="/Cart" element={<Cart/>} />
           <Route element={<Default/>} />
